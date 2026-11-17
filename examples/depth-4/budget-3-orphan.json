@@ -1,0 +1,39 @@
+{
+  "input": {
+    "budget": 3,
+    "records": [
+      {
+        "id": "b3",
+        "day": 4,
+        "size": 4,
+        "parent": "missing",
+        "verified": true
+      },
+      {
+        "id": "b2",
+        "day": 3,
+        "size": 3,
+        "parent": "b1",
+        "verified": true
+      },
+      {
+        "id": "b1",
+        "day": 2,
+        "size": 2,
+        "parent": "b0",
+        "verified": true
+      },
+      {
+        "id": "b0",
+        "day": 1,
+        "size": 1,
+        "parent": null,
+        "verified": true
+      }
+    ]
+  },
+  "expected": [
+    "b0",
+    "b1"
+  ]
+}
